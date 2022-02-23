@@ -1,0 +1,8 @@
+name: Pipeline Template
+
+on:
+  workflow_dispach:
+
+jobs:
+  build:
+    uses: dotnetvale/pipeline-templates/.github/workflows/dotnet-templata.yml@main
